@@ -1,6 +1,10 @@
+#print to the terminal your plan
 puts "I will now count my chickens:"
 
+#per PEMDAS, will do division first, then addition
 puts "Hens #{23 + 30 / 6}"
+
+#multiplication and division happen first, together
 puts "Roosters #{100 - 25 * 3 % 4}"
 
 puts "Now I will count the eggs:"
