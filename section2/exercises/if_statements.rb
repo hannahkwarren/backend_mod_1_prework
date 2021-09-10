@@ -64,8 +64,8 @@ end
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
 
-cups_of_flour = 2
-has_sauce = true
+cups_of_flour = 1
+has_sauce = false
 
 if cups_of_flour < 2 && has_sauce == false
   puts "I cannot make pizza, no flour or sauce"

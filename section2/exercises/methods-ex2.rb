@@ -9,16 +9,17 @@ def print_two_again(arg1, arg2)
   puts "arg1: #{arg1}, arg2: #{arg2}"
 end
 
-#this just takes one arg
+# this just takes one arg
 def print_one(arg1)
   puts "arg1: #{arg1}"
 end
 
-#this one takes no arguments
+# this one takes no arguments
 def print_none()
   puts "I got nothin'."
 end
 
+# call methods and provide the necessary arguments
 print_two("Zed","Shaw")
 print_two_again("Zed","Shaw")
 print_one("First!")
