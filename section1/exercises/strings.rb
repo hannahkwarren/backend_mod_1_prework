@@ -15,4 +15,4 @@ puts "99 bottles of pop on the wall..."
 # Write out code to log one line from your favorite song or movie.
 line = "Why can't you wear black shoes like the other mothers?"
 movie = "Chocolat"
-puts "My favorite line from #{movie} is: '#{line}'"
+puts "My favorite line from the movie #{movie} is: '#{line}'"
