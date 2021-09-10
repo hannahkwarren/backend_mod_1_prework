@@ -1,6 +1,7 @@
 class Student
   attr_accessor :first_name, :last_name, :primary_phone_number
 
+# (in this example, we don't initialize or create instance variables)
   def introduction(professor)
     puts "Hi #{professor}, I'm #{first_name}!"
   end

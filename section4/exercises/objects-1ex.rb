@@ -1,14 +1,9 @@
-# initialize a new object
-# new class method leads us to instantiate a new GoodDog object, triggering
-# initialize method
-
 class GoodDog
   attr_accessor :name, :height, :weight #getter + setter methods built-in
-# instance variable exists as long as the object; constructor sets instance var @name to name
-# pass string from the new method to the initialize method, assigning local var
-# assign the string to the @name instance variable
-  def initialize(n, h, w)
-    @name = n
+
+  def initialize(n, h, w) # initialize a new object
+    # instance variable exists as long as the object; constructor sets instance var @name to name
+    @name = n 
     @height = h
     @weight = w
   end
@@ -31,6 +26,8 @@ class GoodDog
 
 end
 
+# new class method instantiates a new GoodDog object, triggering initialize method
+# pass string from the new method to the initialize method, assigning local var
 sparky = GoodDog.new("Sparky", "12 inches", "10 pounds")
 puts sparky.info
 sparky.change_info("Spartacus", "24 inches", "45 lbs")
