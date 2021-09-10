@@ -20,7 +20,7 @@ def build_a_bear(name, age, fur, clothes, special_power)
     'clothes' => clothes,
     # exterior key maps to fur color value
     'exterior' => fur,
-    # cost is a float in USD
+    # cost, a float in USD
     'cost' => 49.99,
     # key sayings has value of an array collating the strings above and an additional sentence
     'sayings' => [greeting, power_saying, "Goodnight my friend!"],
@@ -38,18 +38,19 @@ build_a_bear('Sleepy', 2, 'purple', ['pajamas', 'sleeping cap'], 'sleeping in')
 # FizzBuzz
 # define a function, fizzbuzz, that accepts 3 arguments: num_1, num_2 and a max for the range
 def fizzbuzz(num_1, num_2, range)
-  #for the inclusive range between one and the range variable (including the range var)...
+  #for an inclusive range between one and up to and including the range variable...
   (1..range).each do |i|
-    # print to console 'fizzbuzz' if evenly divisible by num_1 AND num_2 (no remainders)
+    # print to console 'fizzbuzz' for each number where i is evenly divisible by
+    # num_1 AND num_2 (with no remainders)
     if i % num_1 === 0 && i % num_2 === 0
       puts 'fizzbuzz'
     # print 'fizz' if only divisible by num_1
     elsif i % num_1 === 0
       puts 'fizz'
-    # print 'buzz' if only divisible by num_1
+    # print 'buzz' if only divisible by num_2
     elsif i % num_2 === 0
       puts 'buzz'
-    # for all other cases, just print i local variable value to console
+    # for all other cases, just print i local variable / the number from our range to console
     else
       puts i
     end
