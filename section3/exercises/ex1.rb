@@ -4,19 +4,19 @@ the_count = [1, 2, 3, 4, 5]
 fruits = ['apples', 'oranages', 'pears', 'apricots']
 change = [1, 'pennies', 2, 'dimes', 3, 'quarters']
 
-#this first kind of for-loop goes through a list in a more
+# this first kind of for-loop goes through a list in a more
 # traditional style found in other languages.
 the_count.each do |number|
   puts "This is count #{number}"
 end
 
-#same as above, but in a more Ruby style
+# same as above, but in a more Ruby style
 # This and the next one are the preferred way Ruby for-loops are written
 fruits.each do |fruit|
   puts "A fruit of type: #{fruit}"
 end
 
-#also we can go through mixed lists too
+# also we can go through mixed lists too
 # note this is yet another style, exactly like above
 # but a different syntax or way to write it.
 change.each {|i| puts "I got #{i}"}

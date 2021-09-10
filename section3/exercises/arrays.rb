@@ -84,8 +84,13 @@ posts = ["image at beach", "holiday party", "adorable puppy", "video of cute bab
 
 # 1: Facebook - the news feed is a chronologically ordered and sorted (based on the FB algorithm)
 # array of posts from friends; my profile is an array of chronologically ordered posts...
+fb_profile = [most_recent_post, second_recent_post, third_recent_post]
+
 # 2: Brooklyn Candle - ecommerce site that provides arrays of currently-available candles
 # for purchase, by category, e.g. Minimalist candle line, Incense, Essential Oils, etc.
-# 3: Untappd - to "check in" a beer, you narrow down the array of possibilities by specifying a brewery,
+candles_for_sale = ["Minimalist", "Destination", "Travel size"]
+
+# 3: Untappd - to "check in" a beer, you narrow down the array of possibilities by specifying a beer,
 # your location, draft/can/bottle, etc. Then it works similarly to a social media feed and profile, you can see
 # an array of your check ins and see lists of your friends recent check ins.
+pumking_locations = ["Southern Tier", "Putnams Pub", "Cardiff Giant"]
